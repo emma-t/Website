@@ -1,18 +1,18 @@
 // Images asset
 const fruitImages = {
-    1:'https://drive.google.com/uc?id=1vtaubItASKilyvb5sgQO7D7gjAQ7xo0i',
-    2:'https://drive.google.com/uc?id=1FJNbSIMKRPBnGPienoYK1Qf8wIwQSdpR',
-    3:'https://drive.google.com/uc?id=1TODQyZgnCjDX2Slr0ll8g-ymIV8Yizkh',
-    4:'https://drive.google.com/uc?id=1UToQfe_NtiiiuMmEe0pTklSJVX5fMfjx',
-    5:'https://drive.google.com/uc?id=1k9fwXuTvRq31IiIottNXyLXVmp_AlSqY',
-    6:'https://drive.google.com/uc?id=1cLTEsyaPIfpbY0cDBVGWNcAJkYQiKkDy',
-    7:'https://drive.google.com/uc?id=1XVFuCCK-H7Bsl6MElKsTonRS3LFwVeKr',
-    8:'https://drive.google.com/uc?id=1iEEkhqhXHMwYEU_OZXFNy4WVJd8XgKeF',
-    9:'https://drive.google.com/uc?id=1YQoo8tP26iVhQYzdOoul0GXX7VGhwxcy',
-    10:'https://drive.google.com/uc?id=1phnVR5D_T1I5zbGglRQvQKwqwO8OK8g8',
-    11:'https://drive.google.com/uc?id=1EkdV0pffOX-icwcJPJfEl8f8J9v1uKoO',
-    12:'https://drive.google.com/uc?id=1jw8973CNvmfp2mocKx8XgCnfU9BUAB5o',
-    13:'https://drive.google.com/uc?id=1mklqc080uvbzidP1ZUT_v_INLvphiM2z',
+    1:'https://raw.githubusercontent.com/emma-t/Website/main/resources/14.jpg',
+    2:'https://raw.githubusercontent.com/emma-t/Website/main/resources/13.jpg',
+    3:'https://raw.githubusercontent.com/emma-t/Website/main/resources/12.jpg',
+    4:'https://raw.githubusercontent.com/emma-t/Website/main/resources/11.jpg',
+    5:'https://raw.githubusercontent.com/emma-t/Website/main/resources/10.jpg',
+    6:'https://raw.githubusercontent.com/emma-t/Website/main/resources/9.jpg',
+    7:'https://raw.githubusercontent.com/emma-t/Website/main/resources/8.jpg',
+    8:'https://raw.githubusercontent.com/emma-t/Website/main/resources/7.jpg',
+    9:'https://raw.githubusercontent.com/emma-t/Website/main/resources/6.jpg',
+    10:'https://raw.githubusercontent.com/emma-t/Website/main/resources/5.jpg',
+    11:'https://raw.githubusercontent.com/emma-t/Website/main/resources/4.jpgO',
+    12:'https://raw.githubusercontent.com/emma-t/Website/main/resources/3.jpg',
+    13:'https://raw.githubusercontent.com/emma-t/Website/main/resources/2.jpg',
     14:'https://raw.githubusercontent.com/emma-t/Website/main/resources/1.jpg',
     15:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.JPG',
 
@@ -34,11 +34,6 @@ const textStyle = {
   13: {opacity: 1, transform: '0px'},
   14: {opacity: 1, transform: '0px'},
   15: {opacity: 1, transform: '0px'},
-  16: {opacity: 1, transform: '0px'},
-  17: {opacity: 1, transform: '0px'},
-  18: {opacity: 1, transform: '0px'},
-  19: {opacity: 1, transform: '0px'},
-  20: {opacity: 1, transform: '0px'},
 }
 
 // Global variable to control the scrolling behavior
