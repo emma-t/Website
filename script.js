@@ -10,7 +10,7 @@ const fruitImages = {
     8:'https://raw.githubusercontent.com/emma-t/Website/main/resources/7.jpg',
     9:'https://raw.githubusercontent.com/emma-t/Website/main/resources/6.jpg',
     10:'https://raw.githubusercontent.com/emma-t/Website/main/resources/5.jpg',
-    11:'https://raw.githubusercontent.com/emma-t/Website/main/resources/4.jpgO',
+    11:'https://raw.githubusercontent.com/emma-t/Website/main/resources/4.jpg',
     12:'https://raw.githubusercontent.com/emma-t/Website/main/resources/3.jpg',
     13:'https://raw.githubusercontent.com/emma-t/Website/main/resources/2.jpg',
     14:'https://raw.githubusercontent.com/emma-t/Website/main/resources/1.jpg',
@@ -41,7 +41,7 @@ const step = 30; // For each 30px, change an image
 
 function trackScrollPosition() {
   const y = window.scrollY;
-  const label = Math.min(Math.floor(y/30) + 1, 20);
+  const label = Math.min(Math.floor(y/30) + 1, 15);
   const imageToUse = fruitImages[label];
   // Change the background image
   $('.image-container').css('background-image', `url('${imageToUse}')`);
