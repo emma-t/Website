@@ -15,7 +15,7 @@ body {
   position: sticky;
   top: 0;
   background-size: cover;
-  background-image: url("https://drive.google.com/uc?id=1vtaubItASKilyvb5sgQO7D7gjAQ7xo0i");
+  background-image: url(resources/14.jpg);;
 }
 .container .text-container {
   width: 100%;
