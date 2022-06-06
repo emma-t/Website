@@ -13,13 +13,9 @@ const fruitImages = {
     11:'https://drive.google.com/uc?id=1EkdV0pffOX-icwcJPJfEl8f8J9v1uKoO',
     12:'https://drive.google.com/uc?id=1jw8973CNvmfp2mocKx8XgCnfU9BUAB5o',
     13:'https://drive.google.com/uc?id=1mklqc080uvbzidP1ZUT_v_INLvphiM2z',
-    14:'https://drive.google.com/uc?id=16kYP2us-BsJOflHdPnhPeyUavGrrYLKr',
-    15:'https://drive.google.com/uc?id=1IQHncfdA2iU1YIdQndggvmoLIOIhc1he',
-    16:'https://drive.google.com/uc?id=15h11jLQqXTHnFdruo2Ahz-DQf_KQj3vW',
-    17:'https://drive.google.com/uc?id=1ktnwX9h1O27dQEKtZt78f4rDv1AIbnFS',
-    18:'https://drive.google.com/uc?id=1owtgIhe8hFVF2LLhldAf1rODrurgv7OQ',
-    19:'https://drive.google.com/uc?id=1i1VvCV1D00qLJFBjKqF_D837dnav6lLR',
-    20:'https://drive.google.com/uc?id=1D7PBddCxxb6aRk43maJ_BXgQD-PRS6R7',
+    14:'https://raw.githubusercontent.com/emma-t/Website/main/resources/1.jpg',
+    15:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.JPG',
+
 }
 // Text style
 const textStyle = {
