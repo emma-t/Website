@@ -14,7 +14,10 @@ const fruitImages = {
     12:'https://raw.githubusercontent.com/emma-t/Website/main/resources/3.jpg',
     13:'https://raw.githubusercontent.com/emma-t/Website/main/resources/2.jpg',
     14:'https://raw.githubusercontent.com/emma-t/Website/main/resources/1.jpg',
-    15:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.JPG',
+    15:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.75.jpg',
+    16:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.5.jpg',
+    17:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.25.jpg',
+    18:'https://raw.githubusercontent.com/emma-t/Website/main/resources/0.JPG',
 
 }
 // Text style
@@ -34,6 +37,9 @@ const textStyle = {
   13: {opacity: 1, transform: '0px'},
   14: {opacity: 1, transform: '0px'},
   15: {opacity: 1, transform: '0px'},
+  16: {opacity: 1, transform: '0px'},
+  17: {opacity: 1, transform: '0px'},
+  18: {opacity: 1, transform: '0px'},
 }
 
 // Global variable to control the scrolling behavior
@@ -41,16 +47,16 @@ const step = 30; // For each 30px, change an image
 
 function trackScrollPosition() {
   const y = window.scrollY;
-  const label = Math.min(Math.floor(y/30) + 1, 15);
+  const label = Math.min(Math.floor(y/30) + 1, 18);
   const imageToUse = fruitImages[label];
   // Change the background image
   $('.image-container').css('background-image', `url('${imageToUse}')`);
   // Change the text style
   const textStep = 2;
   const textStyleToUseLine1 = textStyle[label];
-  const textStyleToUseLine2 = textStyle[Math.min(Math.max(label - textStep, 1), 20)];
-  const textStyleToUseLine3 = textStyle[Math.min(Math.max(label - textStep * 2, 1),20)];
-  const textStyleToUseLine4 = textStyle[Math.min(Math.max(label - textStep * 3, 1),20)];
+  const textStyleToUseLine2 = textStyle[Math.min(Math.max(label - textStep, 1), 18)];
+  const textStyleToUseLine3 = textStyle[Math.min(Math.max(label - textStep * 2, 1),18)];
+  const textStyleToUseLine4 = textStyle[Math.min(Math.max(label - textStep * 3, 1),18)];
   $('#line1').css({'opacity': textStyleToUseLine1.opacity, 'transform': `translateY(${textStyleToUseLine1.transform})`});
   $('#line2').css({'opacity': textStyleToUseLine2.opacity, 'transform': `translateY(${textStyleToUseLine2.transform})`});
   $('#line3').css({'opacity': textStyleToUseLine3.opacity, 'transform': `translateY(${textStyleToUseLine3.transform})`});
